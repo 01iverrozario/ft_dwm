@@ -1,7 +1,5 @@
 To install this on your system first you need the following dependencies:
 
-Arch linux:
-
 ```bash
 sudo yay -Sy ttf-ubuntu-mono-nerd alacritty
 git clone https://github.com/01iverrozario/ft_dwm
