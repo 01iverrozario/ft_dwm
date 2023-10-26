@@ -1,4 +1,4 @@
-To install this on your system first you need the following dependencies:
+To install this on your system first, copy these commands
 
 ```bash
 sudo yay -Sy ttf-ubuntu-mono-nerd alacritty
