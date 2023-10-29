@@ -21,7 +21,6 @@ sudo make clean install
 Then, create dwm.desktop in /usr/share/xsessions/ and copy the following content:
 ```bash
 Name=Dwm
-Comment=Log in using the dwm
 Exec=/usr/local/bin/dwm
 Icon=/usr/local/bin/dwm
 Type=Application
