@@ -18,6 +18,14 @@ git clone https://github.com/OliverRozario/ft_dwm
 cd ft_dwm
 sudo make clean install
 ```
+Then, create dwm.desktop in /usr/share/xsessions/ and copy this
+```bash
+Name=Dwm
+Comment=Log in using the dwm
+Exec=/usr/local/bin/dwm
+Icon=/usr/local/bin/dwm
+Type=Application
+```
 
 # Usage 
 
@@ -25,7 +33,5 @@ sudo make clean install
 |Key comibination | Action        |
 |-----------------|:-------------:|
 |Super+d          |Spawns dmenu   |
-|                 |               |
 |Super+Escape     |Close apps     |
-|                 |               |
 |Super+Enter      |Opens alacritty|
