@@ -18,7 +18,7 @@ git clone https://github.com/OliverRozario/ft_dwm
 cd ft_dwm
 sudo make clean install
 ```
-Then, create dwm.desktop in /usr/share/xsessions/ and copy this
+Then, create dwm.desktop in /usr/share/xsessions/ and copy type
 ```bash
 Name=Dwm
 Comment=Log in using the dwm
