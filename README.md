@@ -1,15 +1,31 @@
-To install this on your system first, copy these commands
+# ft_dwm
+
+ft_dwm is my custom build of dwm.
+
+# Dependenices
+
+To use ft_dwm, you need to have the following dependenices installed:
+* xlib header files
+* ttf-ubuntu-mono-nerd
+* alacritty
+
+# Installation
+
+To install ft_dwm, clone this repository and run `make`:
 
 ```bash
-sudo yay -Sy ttf-ubuntu-mono-nerd alacritty
 git clone https://github.com/OliverRozario/ft_dwm
 cd ft_dwm
 sudo make clean install
 ```
-## Custom keyboard shortcuts
 
-Super+d  Spawns dmenu
+# Usage 
 
-Super+Escape Close apps
 
-Super+Enter Spawns alacritty
+|Key comibination | Action        |
+|-----------------|:-------------:|
+|Super+d          |Spawns dmenu   |
+|                 |               |
+|Super+Escape     |Close apps     |
+|                 |               |
+|Super+Enter      |Opens alacritty|
